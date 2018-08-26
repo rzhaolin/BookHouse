@@ -13,7 +13,7 @@
 export default {
     data() {
         return {
-          selected: 'main'
+          selected: this.initTab
         }
     },
      methods: {
@@ -26,16 +26,11 @@ export default {
         return 'icon-' + index
       }
     },
-    mounted() {
-        this.selected = this.$router.name
-        if (this.selected === '' || !this.selected) {
-           this.selected = 'main'
-        }
-    },
     props: {
         tabDatas: {
             type: Array
-        }
+        },
+        initTab:String
     }
 }
 </script>
