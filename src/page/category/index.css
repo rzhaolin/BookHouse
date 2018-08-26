@@ -1,0 +1,12 @@
+.header-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    direction: row
+}
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
+}

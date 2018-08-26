@@ -1,5 +1,8 @@
 <template>
-   <p>购物车页面</p>
+    <div>
+     <p>购物车</p>
+     <Footer :tabDatas="tabs" :initTab="initTab"></Footer>
+     </div>
 </template>
 <script src='./index.js'>
 </script>

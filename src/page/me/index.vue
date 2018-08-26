@@ -1,5 +1,8 @@
 <template>
-     <p>我的页面</p>
+     <div>
+     <p>关于页面</p>
+     <Footer :tabDatas="tabs" :initTab="initTab"></Footer>
+     </div>
 </template>
 <script src='./index.js'>
 </script>

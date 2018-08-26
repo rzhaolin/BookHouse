@@ -31,6 +31,9 @@ export default {
             type: Array
         },
         initTab:String
+    },
+    activated: function () {
+      this.selected = this.initTab
     }
 }
 </script>

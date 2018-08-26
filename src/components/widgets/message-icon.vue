@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
+    <div class="container" >
         <img class="icon" src="~@/assets/icon_message.png"/>
-        <v-text class="text">消息</v-text>
+        <p class="text">消息</p>
     </div>
 </template>
 <style scoped>
@@ -18,6 +18,14 @@
 }
 .text{
     font-size: 10px;
-    vertical-align:top
+    vertical-align:top;
+    margin: 0;
 }
 </style>
+<script>
+export default {
+    methods: {
+    }
+}
+</script>
+
