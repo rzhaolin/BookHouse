@@ -1,10 +1,12 @@
-.container {
+.header-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
-    flex-direction: column;
+    direction: row
 }
-.my-swipeimg {
-    height: 320px;  
-    color: #fff;
-    font-size: 30px;
-    text-align: center;
+.icon {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    margin-right: 10px;
 }

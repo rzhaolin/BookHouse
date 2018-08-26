@@ -8,6 +8,7 @@ const Main = resolve => require(['@/page/main/index.vue'], resolve)
 const Category = resolve => require(['@/page/category/index.vue'], resolve)
 const Car = resolve => require(['@/page/car/index.vue'], resolve)
 const Me = resolve => require(['@/page/me/index.vue'], resolve)
+const Search = resolve => require(['@/page/search/index.vue'], resolve)
 
 export default new Router({
   routes: [
@@ -35,6 +36,11 @@ export default new Router({
       path: '/me',
       name: 'me',
       component: Me
+    },
+    {
+      path: '/search',
+      name: 'search',
+      component: Search
     }
   ]
 })

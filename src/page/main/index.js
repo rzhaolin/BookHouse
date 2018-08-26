@@ -1,8 +1,12 @@
 import Swipe from '@/components/swipe.vue'
+import Search from '@/components/search-ui.vue'
+import MessageBox from '@/components/widgets/message-icon.vue'
 
 export default {
   components: {
-    'v-swipe': Swipe
+    'v-swipe': Swipe,
+    'v-search': Search,
+    'v-message': MessageBox
   },
   methods: {
     onSearch (value) {
